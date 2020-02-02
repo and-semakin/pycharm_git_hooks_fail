@@ -5,7 +5,11 @@ doesn't preserve Git commit info, such as:
 * commit message;
 * selected files/lines;
 
-if Git hooks fails and interrupts commit process.
+if Git hooks fail and interrupt commit. It's really
+annoying if you first make many changes and then try
+to make your commits granular, or if you write long
+descriptive commit message, and then you lose it all
+because of one of the Git hooks failed.
 
 ## Version Info
 
