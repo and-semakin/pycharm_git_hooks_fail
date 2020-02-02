@@ -13,6 +13,7 @@ because of one of the Git hooks failed.
 
 ## Version Info
 
+```
 PyCharm 2019.3.2 Preview (Professional Edition)
 Build #PY-193.6015.10, built on December 26, 2019
 Licensed to Andrey Semakin
@@ -25,6 +26,7 @@ Memory: 1981M
 Cores: 8
 Registry: ide.balloon.shadow.size=0
 Non-Bundled Plugins: com.markskelton.one-dark-theme, mobi.hsz.idea.gitignore, name.kropp.intellij.makefile, net.ashald.envfile, org.toml.lang
+```
 
 ## Steps to reproduce
 
