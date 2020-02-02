@@ -7,7 +7,22 @@ doesn't preserve Git commit info, such as:
 
 if Git hooks fails and interrupts commit process.
 
-## Setup
+## Version Info
+
+PyCharm 2019.3.2 Preview (Professional Edition)
+Build #PY-193.6015.10, built on December 26, 2019
+Licensed to Andrey Semakin
+Subscription is active until March 28, 2020
+Runtime version: 11.0.5+10-b520.30 x86_64
+VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o
+macOS 10.15.3
+GC: ParNew, ConcurrentMarkSweep
+Memory: 1981M
+Cores: 8
+Registry: ide.balloon.shadow.size=0
+Non-Bundled Plugins: com.markskelton.one-dark-theme, mobi.hsz.idea.gitignore, name.kropp.intellij.makefile, net.ashald.envfile, org.toml.lang
+
+## Steps to reproduce
 
 0. Clone this repo;
 
@@ -21,7 +36,7 @@ if Git hooks fails and interrupts commit process.
     chmod +x .git/hooks/pre-commit
     ```
 
-0. Configure remote task server in your IDE (Settings > Tools > Tasks > Server):
+0. Configure remote task server in your IDE (Settings > Tools > Tasks > Servers):
     * Add GitHub repo as remote task server;
     ![Screen 1](assets/C5361B17-BE6E-4570-8C22-E8B0200187C4.jpg)
     * Configure default message for the task server!
